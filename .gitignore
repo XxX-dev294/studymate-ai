@@ -1,0 +1,33 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# Данные времени выполнения — ChromaDB, загруженные файлы, конспекты
+data/
+!data/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Модели, скачанные sentence-transformers / huggingface кеш (если локально)
+.cache/
+models/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Секреты / переменные окружения
+.env
+*.local
+
+# Логи
+*.log

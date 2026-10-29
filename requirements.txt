@@ -1,0 +1,17 @@
+# StudyMate AI — зависимости MVP
+# Версии ограничены диапазонами совместимых релизов.
+
+streamlit>=1.38,<2.0
+pypdf>=5.0,<6.0
+sentence-transformers>=3.0,<4.0
+chromadb>=0.5,<0.6
+requests>=2.31,<3.0
+
+# Опционально для чанкинга (базовая реализация в ingestion/chunker.py не требует её).
+# langchain-text-splitters>=0.2,<0.3
+
+# Тестирование
+pytest>=8.0,<9.0
+
+# Генерация синтетических PDF для тестовых данных (testdata/, tests/)
+reportlab>=4.0,<5.0
